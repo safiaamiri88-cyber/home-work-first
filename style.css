@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #eef0fa;
+    padding: 15px 40px;
+}
+
+
+.logo {
+    font-size: 32px;
+    font-weight: 600;
+    font-family: "Brush Script MT", cursive;
+}
+
+
+.menu {
+    display: flex;
+    list-style: none;
+    gap: 35px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 17px;
+    transition: 0.2s;
+}
+
+.menu li a.active,
+.menu li a:hover {
+    color: #2aa3a3;
+    font-weight: 600;
+}
+
+
+.icon {
+    font-size: 20px;
+    cursor: pointer;
+}
